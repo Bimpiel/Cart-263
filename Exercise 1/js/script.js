@@ -17,60 +17,14 @@ let scoreY = 0;// Var to track O score
 let won = false; // Var to display last won
 let timer = 5; // Var timer
 
-let playerOne;
-let playerTwo;
-let one = 0;
-let two = 0;
-let movX = 0;
-let movY = 0;
-let arr = [];
-var hit = false;
 
 function setup() {
-<<<<<<< HEAD
-createCanvas(500,200);
-
-=======
     createCanvas(600 , 600); //creates a 600*600 canvas
     turnPlayer = 1; //variable value for turnplayer 1, one is for X and 2 is for O. To keep track of turns
     
->>>>>>> 13cd43961fcbc2f36b3e5c76c3cddef6c8de87db
 }
 
 function draw() {
-<<<<<<< HEAD
-    background('grey');
-    initial();
-    ball();
-
-}
-function initial(){
-    playerOne = rect(50,(one + (height/2))- 25,10,50);
-    playerTwo = rect(450,(two + (height/2))- 25,10,50);
-}
-function ball(){
-    hit = circle(width/2 +movX,height/2 +movY,20);
-
-    //movement
-    movX++;
-    
-}
-
-function keyPressed() {
-    if (keyCode === UP_ARROW) {
-      two = two - 5;
-    } 
-    if (keyCode === DOWN_ARROW) {
-        two = two + 5;
-      } 
-      if (keyCode === 87) {
-        one = one - 5;
-      } 
-      if (keyCode === 83) {
-        one = one + 5;
-      } 
-  }
-=======
     //Statement to display last won when one of booleans == true
     if (winX == true || winO == true) {
         won = true; // sets won to true
@@ -366,4 +320,3 @@ function winCondition() {
    
     
 }
->>>>>>> 13cd43961fcbc2f36b3e5c76c3cddef6c8de87db
