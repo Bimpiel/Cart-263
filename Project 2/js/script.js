@@ -168,10 +168,6 @@ class Arc {
     strokeJoin(ROUND);
     // Set stroke weight to 2
     strokeWeight(2);
-    // Calculate trail coordinates using trail offset
-    let trailX = centerX + cos(this.angle + angleStep / 2) * (this.arcRadius + this.trailOffset);
-    let trailY = centerY + sin(this.angle + angleStep / 2) * (this.arcRadius + this.trailOffset);
-    // Draw trail
-    curve(centerX, centerY, trailX, trailY, trailX, trailY, centerX, centerY);
+    
   }
 }
