@@ -2,38 +2,54 @@
 ##### Niko Leduc, Elisha Rodil , Azhar Saidoo 
 
 
-This is a Pictionary like Project. The intention of the project was to create a party setting drawing game that any user can join. Upon joining, the players and spectators will be selected. The goal of the players is to draw word guesses that are generated for them. The spectators are the ones trying to guess the correct code.
+This is a Pictionary like Project. The intention of the project was to create a party setting drawing game that any user can join. Upon joining, the players and spectators will be selected. The goal of the players is to draw word guesses that are generated for them using a controller (a phone with a gyro sensor). The spectators are the ones trying to guess the correct code.
 
 
 The game consist of multiple screen as shown below
-![Alt text](/assets/IMG_4063.jpg "")
+[readme.md](https://github.com/Bimpiel/Cart-263/files/11228347/readme.md)
 
+Depending on the User (player or spectator), there are different types of cases/screens.
+For example:
+The host consist of 4 screens. This includes the main joining screen, the drawing screen where player one and two would have their drawing displayed, three is the spectator guessing screen and four is the results.
+Similarly for the players, we have a join screen where the user inputs their name. They are then brought to a waiting screen and upon game start, they are either sent to the drawing or the guessing screen.
 
 
 
 ## Installation
-Here, you'll describe how to run your code. Do you have libraries? Do you need to configure something? Make it clear, provide inks and commands. 
-``` You can add code like this if needed  ``` 
-Users should be able to copy/paste the code and run it in the terminal or copy the URL and download what they need. 
-If you need to edit code to make it work, like commenting out or running specific lines for certain features, you can detail it here. 
+This code uses JavaScript Library, P5.JS
+
 ## Run
-How to run your code? If there is a command, write it. Does the browser need to be resized? Do you need to connect a microphone? Tell us!
-If your work needs a physical setup or other hardware, describe it here, or give us a diagram.
+To run this code, the user will have to open the host code.
+As for the players, they will join through the QR code within the host code.
+
 ## Future iterations
-What do you hope to add in the future and what did you not have time for? 
+- Adding Sound
+- Converting the controller with gyro sensor to a magic wand like feel.
+
 ## Sketches, ideas
-Include any sketches, mood boards, or ideas you went through. Explain them clearly. 
-## Credits, resources, etc 
-Add any links to tutorials or resources you used or things you found helpful! 
-## Anything else? 
-Add it!
-## Notes on code comments and documentation
-Documentation is a critical part of writing code. It is for you, but also for others you might want to share your code with. If you have ever used code written by someone else, think about what they could have done to help you understand it better. If you're proud of your code, documenting it can help others learn.
-Imagine: its 2 years from now and you've completely forgotten what you wrote, and your gallery show has to be installed tomorrow. Your code almost works, but you can't remember what you wrote. What might help you make changes quickly and remember what you write?
-- Always comment your code. Add your name and project title in the main code file.  
-- Every function should be named described clearly according to what they do.  
-- All variables should have clear and reasonable names that describe what they do. 
-- Sections of code that make decisions or perform complex tasks should be described clearly in comments.  
-- Sections of code borrowed from other places should be cited and linked.  
-- Old code should be removed!  
-- Make your readme file clear and readable. 
+
+This code below consist of the Gyro function setup. Some IOS devices requires permissions for the sensors. The origin of our drawing code comes from the code below.
+https://editor.p5js.org/saidooazhar/sketches/svqzYr4cj
+
+Keywords/Feedback results
+1. Different rounds (speed, time)
+2. Party game? (theme)
+3. Music, sounds (to be aware of how much time is left?)
+4. Strokes/lines (library scribbles/doodles, thicker lines = childish crayon drawing, influenced by 
+the speed= fast/thin line or slow/thick line)
+5. Background (chalkboard, colour of the strokes)
+6. Finish button? (When they're finished) or use the angle of the phone as a stopping point.
+7. Goofy prompts, random words in general (if it's a party theme).
+8. Rotate between the crowd (anyone with the links is able to draw, so they are all engaging)
+9. Instead of 2 players -> more like 2 teams
+10. Scoring/Voting = chaos Pictionary, few lines, details,
+11. View at the same as the players drawing = keep sending messages for additional points
+12. Russian roulette theme type = any player on the team might be picked at some point so they all 
+are engaging/participating
+13. Scrible library in p5.js
+14. How competitive should it be?
+15. To think about the screen for each different phases
+16. Guessing as we go
+17. Different prompts for each team.
+18. To think about adding colours based on the lines, speed etc
+
