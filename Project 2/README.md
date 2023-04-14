@@ -1,19 +1,10 @@
-# Template p5 project
+# Data Visualization Project 2 - Cart 263
 
-## What is a read me file?
-This is the README file for the entire project. For more official projects you should write information here about the nature of the project, your name, any special explanations of how the project works, etc.
+## What is the Project about?
+Using a data file, the idea of the project was to represent the data within the dataset in a creative way.
 
-README files are written in [markdown](https://www.markdownguide.org/cheat-sheet/) to format them. Your readme file should contain all the information about your project, and if needed, how to run it. If you need or use libraries or dependencies, list them here and link to where the user can find the appropriate information. 
+## Explaination of the project!
+The idea was to create a climate change related project. The dataset selected showed different years and the different levels of c02 and even more... The main focus was to represent the c02 levels in a creative way. The project consist of 2 main elements: the background of an earth and arcs. Each arc represent a different year and its properties is also influenced by the year's c02 level. In total, there are 30 represented years which is shown within the different radiuses. The arc animation (heartbeat and fade the arcs in a counter-clockwise manner) was used to create a sense of the earth if it had a heart. The counter-clockwise fade represents a missed beat. The neutral theme was also selected to represent a rather "Dark" feeling. The background image is also a representation of the earth slowly getting blurier as a way of representing what it is going through.
 
-## This template
-This is a p5js template for CART263. You can use this as a starting point for your project. To use this template: 
-* Copy the folder to your computer 
-* Open it in your favorite code editor, we suggest VSCode
-* Install the live server extension 
-* Click "Go Live" and view your code!
-
-## Editing files
-* **Index.html** contains your HTML structure of the project. If you need to add libraries or other files of code, link them in this file. 
-* **js/script.js** this is where you edit most of your P5 code.  
-* **js/libraries** this is where you add any additional libraries.
-* **assets** folder contains any images, videos, audio or other files needed to make your project work. 
+## What was it made with?
+The project was made using p5.js alongside Object-Oriented-Programming and the use of Datasets.
