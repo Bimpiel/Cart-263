@@ -6,7 +6,8 @@ This is a Pictionary like Project. The intention of the project was to create a 
 
 
 The game consist of multiple screen as shown below
-![IMG_4063| width=100px](https://user-images.githubusercontent.com/122397561/231930284-c8300baa-b339-4c44-8994-cea2e967e000.jpg)
+<img src="https://user-images.githubusercontent.com/122397561/231930284-c8300baa-b339-4c44-8994-cea2e967e000.jpg" height="300">
+
 
 
 Depending on the User (player or spectator), there are different types of cases/screens.
