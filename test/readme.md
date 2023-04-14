@@ -16,6 +16,8 @@ For example:
 The host consist of 4 screens. This includes the main joining screen, the drawing screen where player one and two would have their drawing displayed, three is the spectator guessing screen and four is the results.
 Similarly for the players, we have a join screen where the user inputs their name. They are then brought to a waiting screen and upon game start, they are either sent to the drawing or the guessing screen.
 
+Example of drawing mechanic
+
 
 
 ## Installation
@@ -55,4 +57,5 @@ are engaging/participating
 16. Guessing as we go
 17. Different prompts for each team.
 18. To think about adding colours based on the lines, speed etc
+
 
