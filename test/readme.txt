@@ -6,7 +6,7 @@ This is a Pictionary like Project. The intention of the project was to create a 
 
 
 The game consist of multiple screen as shown below
-![Alt text](/assets/IMG_4063.jpg "")
+
 
 
 
