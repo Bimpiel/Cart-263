@@ -17,6 +17,7 @@ The host consist of 4 screens. This includes the main joining screen, the drawin
 Similarly for the players, we have a join screen where the user inputs their name. They are then brought to a waiting screen and upon game start, they are either sent to the drawing or the guessing screen.
 
 Example of drawing mechanic
+<iframe width="560" height="315" src="https://www.youtube.com/embed/44UndOePcPA" frameborder="0" allowfullscreen></iframe>
 
 
 
