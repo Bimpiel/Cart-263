@@ -1,6 +1,7 @@
 # CART 263 - PLAYFUL INTERACTION PROJECT
 ##### Niko Leduc, Elisha Rodil , Azhar Saidoo 
 
+<img src="https://user-images.githubusercontent.com/122397561/231932962-7dfe1411-aa6a-48ec-b7d5-c72c0e92a065.png" height="500">
 
 This is a Pictionary like Project. The intention of the project was to create a party setting drawing game that any user can join. Upon joining, the players and spectators will be selected. The goal of the players is to draw word guesses that are generated for them using a controller (a phone with a gyro sensor). The spectators are the ones trying to guess the correct code.
 
