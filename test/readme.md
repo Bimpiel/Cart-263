@@ -23,7 +23,8 @@ Example of drawing mechanic
 
 
 ## Installation
-This code uses JavaScript Library, P5.JS
+This code uses JavaScript Library, P5.JS and p5.sound library.
+This code also uses MQTT Paho Eclipse JavaScript
 
 ## Run
 To run this code, the user will have to open the host code.
